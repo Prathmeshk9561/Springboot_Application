@@ -10,7 +10,7 @@ This Spring Boot application provides CRUD (Create, Read, Update, Delete) functi
 
 ## Result Screenshots
 
-- **Home Page**: ![Home Page](screenshots/home.png)
+- **Home Page**: ![Home Page](screenshots/createStud.png)
 - **Student List**: ![Student List](screenshots/student_list.png)
 - **Add Student**: ![Add Student](screenshots/add_student.png)
 - **Edit Student**: ![Edit Student](screenshots/edit_student.png)
