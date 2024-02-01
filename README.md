@@ -4,16 +4,18 @@ This Spring Boot application provides CRUD (Create, Read, Update, Delete) functi
 
 ## Dependencies Used
 
-- **Spring Boot Starter Web**: For building web applications using Spring MVC.
-- **Spring Boot Starter Data JPA**: For easy integration with JPA (Java Persistence API).
-- **Spring MySQL**: An in-memory database for storing student records during development.
+- **Spring Boot Web**: For building web applications using Spring MVC.
+- **Spring Boot Data JPA**: For easy integration with JPA (Java Persistence API).
+- **Spring MySQL**: Database for storing student records during development.
 
 ## Result Screenshots
 
-- **Home Page**: ![Home Page](screenshots/createStud.png)
-- **Student List**: ![Student List](screenshots/student_list.png)
-- **Add Student**: ![Add Student](screenshots/add_student.png)
-- **Edit Student**: ![Edit Student](screenshots/edit_student.png)
+- **Created A New Student**: ![createStud](screenshots/createStud.png)
+- **Find Student Data Using Id**: ![Student List](screenshots/findById.png)
+- **Display All The Student Records**: ![Add Student](screenshots/findAll.png)
+- **Update Student Info. By Their Id's**: ![Edit Student](screenshots/updateById.png)
+- **Delete Student Data Using Id**: ![Student List](screenshots/deleteById.png)
+- **Delete All The Student Records**: ![Add Student](screenshots/deleteAll.png)
 
 ## REST API Endpoints
 
