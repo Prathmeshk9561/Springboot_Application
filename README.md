@@ -8,15 +8,6 @@ This Spring Boot application provides CRUD (Create, Read, Update, Delete) functi
 - **Spring Boot Data JPA**: For easy integration with JPA (Java Persistence API).
 - **Spring MySQL**: Database for storing student records during development.
 
-## Result Screenshots
-
-- **Created A New Student**: ![createStud](screenshots/createStud.png)
-- **Find Student Data Using Id**: ![Student List](screenshots/findById.png)
-- **Display All The Student Records**: ![Add Student](screenshots/findAll.png)
-- **Update Student Info. By Their Id's**: ![Edit Student](screenshots/updateById.png)
-- **Delete Student Data Using Id**: ![Student List](screenshots/deleteById.png)
-- **Delete All The Student Records**: ![Add Student](screenshots/deleteAll.png)
-
 ## REST API Endpoints
 
 - **GET /api/students**: Retrieve all students.
@@ -24,6 +15,15 @@ This Spring Boot application provides CRUD (Create, Read, Update, Delete) functi
 - **POST /api/students**: Create a new student.
 - **PUT /api/students/{id}**: Update an existing student.
 - **DELETE /api/students/{id}**: Delete a student by ID.
+## Result Screenshots
+
+- **Created A New Student**: ![createStud](screenshots/createStud.png)
+- **Find Student Data Using Id**: ![find student](screenshots/findById.png)
+- **Display All The Student Records**: ![all Student](screenshots/findAll.png)
+- **Update Student Info. By Their Id's**: ![Edit Student](screenshots/updateById.png)
+- **Delete Student Data Using Id**: ![delete by id](screenshots/deleteById.png)
+- **Delete All The Student Records**: ![delete all](screenshots/deleteAll.png)
+
 
 ## Usage
 
