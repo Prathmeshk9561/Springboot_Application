@@ -10,12 +10,14 @@ This Spring Boot application provides CRUD (Create, Read, Update, Delete) functi
 
 ## REST API Endpoints
 
-- **GET /api/students**: Retrieve all students.
-- **GET /api/students/{id}**: Retrieve a student by ID.
-- **POST /api/students**: Create a new student.
-- **PUT /api/students/{id}**: Update an existing student.
-- **DELETE /api/students/{id}**: Delete a student by ID.
-## Result Screenshots
+- **POST http://localhost:8020/createStudent**: Create a new student.Retrieve all students.
+- **GET http://localhost:8020/findAll**: Retrieve all students.
+- **GET http://localhost:8020/findById/{id}**: Retrieve student using Id.
+- **PUT http://localhost:8020/updateById/{id}**: Update an existing student.
+- **DELETE http://localhost:8020/deleteById/{id}**: Delete a student by ID.
+- **DELETE http://localhost:8020/deleteAll**: Delete all students.
+  
+## Result Screenshots (Tested All API Endpoints using POSTMAN Tool)
 
 - **Created A New Student**: ![createStud](screenshots/createStud.png)
 - **Find Student Data Using Id**: ![find student](screenshots/findById.png)
